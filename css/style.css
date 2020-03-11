@@ -14,6 +14,11 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    padding-top: 72px;
+    padding-bottom: 98px;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -35,8 +40,6 @@ img {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 24px;
-    margin-top: 72px;
-    margin-bottom: 98px;
 }
     
 .item:not(:last-child) {
@@ -44,6 +47,7 @@ img {
 }
 
 .item a {
+    display: block;
     text-decoration: none;
     color: #626262;  
 }
@@ -51,6 +55,10 @@ img {
 a:hover,
 a:focus {
     color: #03a9f4;
+}
+
+section {
+    padding-bottom: 70px;
 }
 
 .aboutlife-content {
@@ -64,8 +72,8 @@ a:focus {
     margin-right: 0px;
 }
 
-.aboutlife-block:nth-last-child(-n +2) {
-    margin-bottom: 0px;
+.aboutlife-block:nth-last-child(-n +4) {
+    margin-bottom: 52px;
 }
 
 .aboutlife-block {
@@ -75,13 +83,16 @@ a:focus {
     margin-bottom: 130px;
 }
 
+.block-img {
+    margin-bottom: 30px;
+}
+
 .block-name {
     font-size: 14px;
     line-height: 17px;
     color: #b4ad9e;
     text-transform: uppercase;
     font-family: 'Ubuntu';
-    margin-top: 30px;
     margin-bottom: 33px;
 }
 
@@ -102,7 +113,7 @@ a:focus {
     display: block;
     font-size: 20px;
     line-height: 24px;
-    margin: 52px auto 70px;
+    margin: 0 auto;
     padding-top: 24px;
     padding-bottom: 20px;
     padding-left: 34px;
